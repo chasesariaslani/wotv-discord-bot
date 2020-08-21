@@ -172,9 +172,29 @@ async def on_message(message):
         vision_card_location = vision_card_names.index(wotv_content)
         await message.channel.send(vision_card_name(vision_cards, vision_card_location))
 
+    elif wotv_content == 'help':
+        author = message.author
+
+        embed = discord.Embed(
+        colour=discord.Colour.orange()
+        )
+
+        embed.set_author(name='Help')
+        embed.add_field(name="Characters", value="Type in wotv and a character's name:\
+                        \n Example: wotv vinera fennes", inline=False)
+        embed.add_field(name="Espers", value="Type in wotv and an esper's name:\
+                        \n Example: wotv ifrit", inline=False)
+        embed.add_field(name="Vision Cards", value="Type in wotv and the name*\
+                        \n Note: special characters and anything after a comma has been removed.\
+                        \n Example: wotv 'rock cliff titan\
+                        \n Example: freezer of all\
+                        \n Example: long-distance communication device earth" , inline=False)
+
+        await author.send(embed=embed)
+
     else:
         pass
 
 
 # Runs the Bot in Discord
-client.run(input("Please input client token. \n"))
+client.run('NzEzOTIyMzg4MDIyMDAxNzU0.XsnKCQ.ST7nz7cp1wSs6eVoEIgA5LZzSes')
