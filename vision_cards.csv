@@ -1,0 +1,63 @@
+name,url,group_buff,self_buff,vc_level,hp,attack,magic
+"Rock Cliff Titan, Golem","https://warofthevisions.gamepedia.com/Rock_Cliff_Titan,_Golem","Earth Attack + 25","Max HP(%) + 10",99,500,60,36
+"Howl of Ferocious Blaze, Ifrit","https://warofthevisions.gamepedia.com/Howl_of_Ferocious_Blaze,_Ifrit","Fire Attack + 50","ATK(%) + 10",99,323,133,54
+"Aquatic Songstress, Siren","https://warofthevisions.gamepedia.com/Aquatic_Songstress,_Siren","Water Attack + 35","Water Attack + 10",99,300,60,131
+"Second Division of the Kingdom of Leonis, «Caelum»","https://warofthevisions.gamepedia.com/Second_Division_of_the_Kingdom_of_Leonis,_%C2%ABCaelum%C2%BB","Slash Attack + 35","DEX(%) + 10",99,346,92,80
+"Becoming Stronger Than Anyone Else",https://warofthevisions.gamepedia.com/Becoming_Stronger_Than_Anyone_Else,"Critical Dmg + -100","Casting Time Reduced + 10",99,292,190,18
+Trousseau,https://warofthevisions.gamepedia.com/Trousseau%E2%80%8B,"Dark Attack + 35","Magic Attack + 10",99,238,28,190
+"Echoing Screams",https://warofthevisions.gamepedia.com/Echoing_Screams,"ATK Debuff Res + 35","Slash Attack + 25",99,346,169,10
+"Dashing Over a Snowy Field",https://warofthevisions.gamepedia.com/Dashing_Over_a_Snowy_Field,"AGI(%) + 35","Pierce Attack + 5",99,261,137,80
+"Scions of Shadow",https://warofthevisions.gamepedia.com/Scions_of_Shadow,"Dark Attack + 35","Light Attack + 10",99,153,141,127
+"Frederika's Dream",https://warofthevisions.gamepedia.com/Frederika%27s_Dream,"Lightning Attack + 35","Missile Attack + 10",99,287,162,39
+"Secrets of the Heart",https://warofthevisions.gamepedia.com/Secrets_of_the_Heart,"Earth Attack + 35","Luck(%) + 10",99,292,168,32
+"Freezer of All, Shiva","https://warofthevisions.gamepedia.com/Freezer_of_All,_Shiva","Ice Attack + 20","Evasion + 10",99,330,18,170
+"Roaring Thunderclap, Ramuh","https://warofthevisions.gamepedia.com/Roaring_Thunderclap,_Ramuh","Lightning Attack + 50","MAG(%) + 10",99,264,80,133
+"Scion of House Beoulve",https://warofthevisions.gamepedia.com/Scion_of_House_Beoulve,"Slash Attack + 15","AGI(%) + 10",99,162,144,90
+"Realm Reaver, Odin","https://warofthevisions.gamepedia.com/Realm_Reaver,_Odin","Man Eater + 20","Unit Attack Res + 10",99,362,142,38
+"Gale-Begetting Heavenly Four, Tetra Sylphid","https://warofthevisions.gamepedia.com/Gale-Begetting_Heavenly_Four,_Tetra_Sylphid","Accuracy + 35","Wind Attack + 15",99,302,162,37
+"Serpentine Onslaught, Two-Headed Dragon","https://warofthevisions.gamepedia.com/Serpentine_Onslaught,_Two-Headed_Dragon","Dark Attack + 2500","Damage Limit + 10",99,300,180,18
+"Mobius of Despair and Truth",https://warofthevisions.gamepedia.com/Mobius_of_Despair_and_Truth,"MAG(%) + 20","Missile Attack + 15",99,320,12,172
+"Metal Daemon, Iron Giant","https://warofthevisions.gamepedia.com/Metal_Daemon,_Iron_Giant","AGI(%) + 15","Slash Attack + -3",70,384,80,25
+"Malevolent Legendary Beast, Behemoth","https://warofthevisions.gamepedia.com/Malevolent_Legendary_Beast,_Behemoth","Beast Killer + 15","Pierce Attack + 10",70,338,133,14
+"Defiling Curse, Malboro","https://warofthevisions.gamepedia.com/Defiling_Curse,_Malboro","Confusion + 20","Strike Attack + 15",70,330,32,109
+"Admirers' Rivalry",https://warofthevisions.gamepedia.com/Admirers%27_Rivalry,"Lightning Eater + 30","DEF Debuff Res + 20",70,268,92,68
+"Birth of New Life",https://warofthevisions.gamepedia.com/Birth_of_New_Life,"Max HP(%) + 21","Luck(%) + 8",70,461,32,29
+"Secret Orders",https://warofthevisions.gamepedia.com/Secret_Orders,"SPR + 20","Slash Attack + -5",70,230,105,91
+"Vow of Love",https://warofthevisions.gamepedia.com/Vow_of_Love,"Hate + 30","ATK(%) + 5",70,346,48,69
+"Cleansing the Mind",https://warofthevisions.gamepedia.com/Cleansing_the_Mind,"Luck(%) + 15","Missile Attack + 15",70,384,48,43
+"Fleeting Tranquility",https://warofthevisions.gamepedia.com/Fleeting_Tranquility,"Charm + 15","Max HP(%) + 15",70,253,113,73
+"Sharpened Concentration",https://warofthevisions.gamepedia.com/Sharpened_Concentration,"SPR + 20","Missile Attack + -5",70,200,121,91
+Shadowbringers,https://warofthevisions.gamepedia.com/Shadowbringers,"Light Attack + 15","Dark Attack + -5",70,230,121,76
+"Greetings from Afar",https://warofthevisions.gamepedia.com/Greetings_from_Afar,"MAG(%) + 20","Aquatic Killer + 20",70,200,100,100
+"Seductive Serpent, Lamia Queen","https://warofthevisions.gamepedia.com/Seductive_Serpent,_Lamia_Queen","Ice Eater + 20","Fire Attack + 15",70,364,92,20
+"Snow-White Guard",https://warofthevisions.gamepedia.com/Snow-White_Guard,"Slash Attack + 18","Critical Dmg + 15",70,284,76,76
+"Path to Revenge",https://warofthevisions.gamepedia.com/Path_to_Revenge,"DEF + 20","Slash Attack + 10",70,312,82,60
+"Vigorous Vegetation, Ochu","https://warofthevisions.gamepedia.com/Vigorous_Vegetation,_Ochu","ATK(%) + 20","Pierce Attack + 20",70,252,105,54
+"Mobius of Hope and Illusion",https://warofthevisions.gamepedia.com/Mobius_of_Hope_and_Illusion,"AGI(%) + 15","Ice Attack + 8",70,380,87,35
+"Envious Magician",https://warofthevisions.gamepedia.com/Envious_Magician,"DEF + 30","MAG(%) + -5",70,242,46,126
+"The Perks of Having Charm",https://warofthevisions.gamepedia.com/The_Perks_of_Having_Charm,"Damage Limit + 20","Light Eater + 1500",70,312,95,42
+"Deceptive Vows, Honest Souls","https://warofthevisions.gamepedia.com/Deceptive_Vows,_Honest_Souls","Slash Attack + 10","Evasion + 15",70,264,82,75
+"Instantaneous 1,000 Needles, Cactuar","https://warofthevisions.gamepedia.com/Instantaneous_1,000_Needles,_Cactuar","DEF + 9","Critical Hit Rate + -5",60,307,44,73
+"Magic Eye Beam, Floateye","https://warofthevisions.gamepedia.com/Magic_Eye_Beam,_Floateye","Slow + 15","DEX(%) + 15",60,215,72,91
+"Enormous Avian, Zuu","https://warofthevisions.gamepedia.com/Enormous_Avian,_Zuu","Avian Killer + 15","ATK(%) + 20",60,346,68,32
+"Herculean Demon, Ogre","https://warofthevisions.gamepedia.com/Herculean_Demon,_Ogre","AGI(%) + 7","Strike Attack + -5",60,223,109,54
+"Explosive Orb, Bomb","https://warofthevisions.gamepedia.com/Explosive_Orb,_Bomb","Critical Hit Rate + 7","Fire Attack + 20",60,330,40,65
+"Job Crystal",https://warofthevisions.gamepedia.com/Job_Crystal,"Acquired AP(%) + 50","Acquired JP(%) + 20",60,240,70,70
+"Gluttonous King's Arrival",https://warofthevisions.gamepedia.com/Gluttonous_King%27s_Arrival,"AGI(%) + 7","Max HP(%) + -5",60,215,105,62
+"Long-Awaited Holiday",https://warofthevisions.gamepedia.com/Long-Awaited_Holiday,"DEX(%) + 11","Luck(%) + 20",60,253,76,69
+"Great Detective Little Leela",https://warofthevisions.gamepedia.com/Great_Detective_Little_Leela,"DEF + 15","MAG(%) + -5",60,223,48,109
+"Beguiling Witch",https://warofthevisions.gamepedia.com/Beguiling_Witch,"Reaper Killer + -30","Casting Time Reduced + 25",60,184,80,98
+"Fun Time",https://warofthevisions.gamepedia.com/Fun_Time,"Critical Hit Rate + 15","ATK(%) + 20",60,207,88,80
+"Flag of Leonis",https://warofthevisions.gamepedia.com/Flag_of_Leonis,"Stop + 10","ATK(%) + 25",40,173,80,43
+"Flag of Hourne",https://warofthevisions.gamepedia.com/Flag_of_Hourne,"Berserk + 7","DEX(%) + 25",40,296,32,29
+"Flag of Fennes",https://warofthevisions.gamepedia.com/Flag_of_Fennes,"ATK Debuff Res + 8","Max HP(%) + 50",40,257,52,29
+"Flag of Wezette",https://warofthevisions.gamepedia.com/Flag_of_Wezette,"Toad + 30","Evocation Gauge Boost + 25",40,234,48,43
+"Flag of the Crystal Sanctum",https://warofthevisions.gamepedia.com/Flag_of_the_Crystal_Sanctum,"Accuracy + 6","Accuracy + 25",40,196,20,87
+"Leonis Castle",https://warofthevisions.gamepedia.com/Leonis_Castle,"DEF + 6","Critical Hit Rate + 15",40,280,48,21
+"Hourne Castle",https://warofthevisions.gamepedia.com/Hourne_Castle,"ATK(%) + 4","Slash Attack + 30",40,134,92,51
+"Fennes Castle",https://warofthevisions.gamepedia.com/Fennes_Castle,"DEX + 4","Strike Attack + 18",40,234,48,43
+"Wezette Castle",https://warofthevisions.gamepedia.com/Wezette_Castle,"DEF + 4","Pierce Attack + 10",40,326,24,21
+"Dynverk Cathedral",https://warofthevisions.gamepedia.com/Dynverk_Cathedral,"Blind + 4","Missile Attack + 25",40,142,64,73
+"Long-Distance Communication Device «Heaven»",https://warofthevisions.gamepedia.com/Long-Distance_Communication_Device_%C2%ABHeaven%C2%BB,"ATK + 8","Max HP(%) + 30",30,100,56,29
+"Long-Distance Communication Device «Earth»",https://warofthevisions.gamepedia.com/Long-Distance_Communication_Device_%C2%ABEarth%C2%BB,"Luck + 10","ATK(%) + 30",30,100,32,51
+"Far-Reaching Mirror",https://warofthevisions.gamepedia.com/Far-Reaching_Mirror,"DEX + 10","MAG(%) + 30",30,192,20,18
