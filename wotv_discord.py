@@ -197,4 +197,4 @@ async def on_message(message):
 
 
 # Runs the Bot in Discord
-client.run('NzEzOTIyMzg4MDIyMDAxNzU0.XsnKCQ.ST7nz7cp1wSs6eVoEIgA5LZzSes')
+client.run(input("Please input Client Token. \n"))
