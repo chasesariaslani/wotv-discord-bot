@@ -13,6 +13,7 @@ wotv_discord.py
 I have provided what was scraped as CSV files. In order to run this script. Two things need to happen:
 1. Enter a password when prompted. (will provide it privately).
 2. Invite the bot into your Discord Server.
+3. I may need to provide you the token command as well if you run the program as the Discord Gremlins let me know not to do that.
 
 To do this, click this link to add the bot to your server:
 https://discord.com/api/oauth2/authorize?client_id=713922388022001754&permissions=0&scope=bot
