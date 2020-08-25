@@ -56,75 +56,94 @@ for item in esper_stat_tables:
     esp_name = esper_df.loc[esper_df['webpage'] == item[0]]['name'].values[0]  # finds location of name based on url
     item.append(esp_name)
 
+# print(esper_stat_tables)
+
 for item in esper_stat_tables:
     stat_table[item[2]] = {}
 
     esp_url = esper_df.loc[esper_df['name'] == item[2]]['webpage'].values[0]
     stat_table[item[2]]['URL'] = esp_url
 
-    strip_hp = item[1].lower().strip('hp')
+    strip_hp = item[1].lower().replace('hp', '')
     if strip_hp[0].isdigit():
-        stat_table[item[2]]['HP'] = strip_hp[0:3]
+        stat_table[item[2]]['HP'] = strip_hp[0:3]  # Always in hundreds.
+        strip_atk = strip_hp[3:].replace('atk', '')
     else:
         stat_table[item[2]]['HP'] = 'empty'
+        strip_atk = strip_hp
 
-    strip_atk = strip_hp[3:].strip('atk')
+
     if strip_atk[2].isdigit():
         stat_table[item[2]]['ATK'] = strip_atk[0:3]
+        strip_tp = strip_atk[3:].replace('tp', '')
     elif strip_atk[1].isdigit():
         stat_table[item[2]]['ATK'] = strip_atk[0:2]
+        strip_tp = strip_atk[2:].replace('tp', '')
     elif strip_atk[0].isdigit():
         stat_table[item[2]]['ATK'] = strip_atk[0:1]
+        strip_tp = strip_atk[1:].replace('tp', '')
     else:
         stat_table[item[2]]['ATK'] = 'empty'
+        strip_tp = strip_atk
 
-    strip_tp = strip_atk[3:].strip('tp')
     if strip_tp[1].isdigit():
         stat_table[item[2]]['TP'] = strip_tp[0:2]
+        strip_mag = strip_tp[2:].replace('mag', '')
+
     elif strip_tp[0].isdigit():
-        stat_table[item[2]]['TP'] = strip_tp[0:2]
+        stat_table[item[2]]['TP'] = strip_tp[0:1]
+        strip_mag = strip_tp[1:].replace('mag', '')
     else:
         stat_table[item[2]]['TP'] = 'empty'
+        strip_mag = strip_tp
 
-    strip_mag = strip_tp[2:].strip('mag')
-    if strip_mag[0].isdigit():
+    if strip_mag[2].isdigit():
+        stat_table[item[2]]['MAG'] = strip_mag[0:3]
+        strip_ap = strip_mag[3:].replace('ap', '')
+    elif strip_mag[1].isdigit():
         stat_table[item[2]]['MAG'] = strip_mag[0:2]
+        strip_ap = strip_mag[2:].replace('ap', '')
+    elif strip_mag[0].isdigit():
+        stat_table[item[2]]['MAG'] = strip_mag[0:1]
+        strip_ap = strip_mag[1:].replace('ap', '')        
     else:
         stat_table[item[2]]['MAG'] = 'empty'
+        strip_ap = strip_mag
 
-    strip_ap = strip_mag[3:].strip('ap')
     if strip_ap[0].isdigit():
-        stat_table[item[2]]['AP'] = strip_ap[0:2]
+        stat_table[item[2]]['AP'] = strip_ap[0:2]  # Always in 10's
+        strip_agi = strip_ap[2:].replace('agi', '')
     else:
         stat_table[item[2]]['AP'] = 'empty'
+        strip_agi = strip_ap
 
-    strip_agi = strip_ap[2:].strip('agi')
-    if strip_agi[0].isdigit():
-        if strip_agi[1].isdigit():
-            stat_table[item[2]]['AGI'] = strip_agi[0:2]
-        else:
-            stat_table[item[2]]['AGI'] = strip_agi[0:1]
+    if strip_agi[1].isdigit():
+        stat_table[item[2]]['AGI'] = strip_agi[0:2]
+        strip_dex = strip_agi[2:].replace('dex', '')
+    elif strip_agi[0].isdigit():
+        stat_table[item[2]]['AGI'] = strip_agi[0:1]
+        strip_dex = strip_agi[1:].replace('dex', '')
     else:
         stat_table[item[2]]['AGI'] = 'empty'
+        strip_dex = strip_agi
 
-    strip_dex = strip_agi[2:].strip('dex')
     if strip_dex[0].isdigit():
-        stat_table[item[2]]['DEX'] = strip_dex[0:2]
+        stat_table[item[2]]['DEX'] = strip_dex[0:2]  # Always in 10's
+        strip_luck = strip_dex[2:].replace('luck', '')
     else:
         stat_table[item[2]]['DEX'] = 'empty'
+        strip_luck = strip_dex
 
-    strip_luck = strip_dex[2:].strip('luck')
     if strip_luck[0].isdigit():
-        stat_table[item[2]]['LUCK'] = strip_luck[0:2]
+        stat_table[item[2]]['LUCK'] = strip_luck[0:2]  # Always in 10's
+        strip_cost = strip_luck[2:].replace('cost','')
     else:
         stat_table[item[2]]['LUCK'] = 'empty'
+        strip_cost = strip_luck
 
-    strip_cost = strip_luck[2:].strip('cost')
-    try:
-        if strip_cost[0].isdigit():
-            stat_table[item[2]]['COST'] = strip_cost
-    except (IndexError, ValueError):
-        print('Empty string. Adding empty value')
+    if strip_cost is not None and strip_cost[0:3] != 'atk':
+        stat_table[item[2]]['COST'] = strip_cost
+    else:
         stat_table[item[2]]['COST'] = 'empty'
 
 
